@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Forms xmlns="urn:us:gov:treasury:irs:common"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:treasury:irs:common IRSForm1099RComposite.xsd">
+    <Form1099RComposite>
+        <CorrectedInd>1</CorrectedInd>
+        <Payor>
+            <PayerTIN>123456789</PayerTIN>
+            <PayerName controlType="IND">Payer Company Name</PayerName>
+            <PayerAddress>
+                <AddressLine1Txt>123 Main St</AddressLine1Txt>
+                <CityNm>Anytown</CityNm>
+                <StateAbbreviationCd>CA</StateAbbreviationCd>
+                <ZIPCd>12345</ZIPCd>
+            </PayerAddress>
+        </Payor>
+        <Payee>
+            <PayeeName>
+                <FirstNm>John</FirstNm>
+                <LastNm>Doe</LastNm>
+            </PayeeName>
+            <MailingAddress>
+                <AddressLine1Txt>456 Oak St</AddressLine1Txt>
+                <CityNm>Cityville</CityNm>
+                <StateAbbreviationCd>CA</StateAbbreviationCd>
+                <ZIPCd>54321</ZIPCd>
+            </MailingAddress>
+            <TIN>987654321</TIN>
+        </Payee>
+        <PayerOrPayeeCd>1</PayerOrPayeeCd>
+        <Payment>
+            <DistributionCode>1</DistributionCode>
+            <DistributionAmt>1000.00</DistributionAmt>
+            <DistDt>2022-12-31</DistDt>
+            <TaxableAmt>800.00</TaxableAmt>
+            <WithholdingAmt>200.00</WithholdingAmt>
+        </Payment>
+    </Form1099RComposite>
+</Forms>
