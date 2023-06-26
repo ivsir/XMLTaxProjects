@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <W2 xmlns="urn:us:gov:treasury:irs:common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:treasury:irs:common IRSFormW2.xsd"> -->
-<W2>
+<W2 xmlns="urn:us:gov:treasury:irs:common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:treasury:irs:common IRSFormW2.xsd">
+<!-- <W2> -->
   <FormW2>
     <!-- W-2 Data -->
     <Wages>

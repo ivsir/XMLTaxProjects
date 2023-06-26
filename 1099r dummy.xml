@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <Forms xmlns="urn:us:gov:treasury:irs:common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:treasury:irs:common IRSForm1099RComposite.xsd"> -->
-<Forms>
+<Forms xmlns="urn:us:gov:treasury:irs:common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:treasury:irs:common IRSForm1099RComposite.xsd">
+<!-- <Forms> -->
     <Form1099RComposite>
         <CorrectedInd>1</CorrectedInd>
         <Payor>
