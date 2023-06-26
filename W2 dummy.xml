@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <W2 xmlns="urn:us:gov:treasury:irs:common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:treasury:irs:common IRSFormW2.xsd"> -->
+<W2>
+  <FormW2>
+    <!-- W-2 Data -->
+    <Wages>
+      <WageAmount>50000.00</WageAmount>
+      <FederalIncomeTaxWithheld>6000.00</FederalIncomeTaxWithheld>
+      <SocialSecurityWages>50000.00</SocialSecurityWages>
+      <SocialSecurityTaxWithheld>3100.00</SocialSecurityTaxWithheld>
+      <MedicareWages>50000.00</MedicareWages>
+      <MedicareTaxWithheld>725.00</MedicareTaxWithheld>
+    </Wages>
+    <!-- Employee Information -->
+    <Employee>
+      <TINRequestType>Original</TINRequestType>
+      <Name>
+        <PersonName>
+          <LastName>Doe</LastName>
+          <FirstName>John</FirstName>
+        </PersonName>
+      </Name>
+      <SSN>123-45-6789</SSN>
+      <MailingAddress>
+        <AddressLine1>123 Main St</AddressLine1>
+        <CityOrTown>Anytown</CityOrTown>
+        <StateOrProvince>CA</StateOrProvince>
+        <PostalCode>12345</PostalCode>
+        <Country>US</Country>
+      </MailingAddress>
+    </Employee>
+    <!-- Employer Information -->
+    <Employer>
+      <EIN>12-3456789</EIN>
+      <BusinessNameLine1>XYZ Company</BusinessNameLine1>
+      <MailingAddress>
+        <AddressLine1>456 Oak Ave</AddressLine1>
+        <CityOrTown>Anytown</CityOrTown>
+        <StateOrProvince>CA</StateOrProvince>
+        <PostalCode>12345</PostalCode>
+        <Country>US</Country>
+      </MailingAddress>
+    </Employer>
+  </FormW2>
+</W2>
